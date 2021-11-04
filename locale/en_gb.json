@@ -1,0 +1,7 @@
+{
+    "version" : "0.3",
+    "phrases" : {
+        "cannot_get":"Cannot /GET",
+        "cannot_get_reason":"Reason: API Version Incorrect."
+    }
+}

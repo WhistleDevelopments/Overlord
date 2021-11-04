@@ -1,0 +1,7 @@
+{
+    "version" : "0.3",
+    "phrases" : {
+        "cannot_get":"No poder /GET",
+        "cannot_get_reason":"Razón: API Versión Incorrecto."
+    }
+}
