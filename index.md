@@ -8,9 +8,9 @@
 *[IP]: Internet Protocol
 
 ## Instructions:
-### **==Step One:== Import users.sql through your phpmyadmin or other software.**
-### **==Step Two:== Fill out your database details in config.php**
-### **==Step Three:== Look below for api request uri's.**
+### **Step One: Import users.sql through your phpmyadmin or other software.**
+### **Step Two: Fill out your database details in config.php**
+### **Step Three: Look below for api request uri's.**
 
 ## API URI'S
 | URI      | Params | Function |
