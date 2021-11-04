@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+# Overlord User API Software
+## **Software Description:**
+### **Overlord UAPI is a API that deals with registering users and checking if they're valid, the system checks the user's HWID and IP Address to make sure the user given via parameters, correlates to the one in the database, if invalid it returns a formatted json value, otherwise it returns a success message formatted in json.**
 
-You can use the [editor on GitHub](https://github.com/WhistleDevelopments/Overlord/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+*[UAPI]: User Application Programming Interface
+*[HWID]: Hardware Identifier
+*[IP]: Internet Protocol
 
-### Markdown
+## Instructions:
+### **==Step One:== Import users.sql through your phpmyadmin or other software.**
+### **==Step Two:== Fill out your database details in config.php**
+### **==Step Three:== Look below for api request uri's.**
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## API URI'S
+| URI      | Params | Function |
+|----------|--------|----------|
+|/api/user.php|?username=&password=&hwid=|Register User with username, password and valid HWID.
+|/api/access.php|?username=&password=&hwid=|Checks if user exists, returns information about selected user.
+|**MISC:**
+|/index.php|?api=0.4|Uncompleted Function, Customise it to whatever you'd like.
 
-```markdown
-Syntax highlighted code block
+## Credits/License
+> **Developer: WhistleDev**
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/WhistleDevelopments/Overlord/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+> `License is hereby required to be presented in all revisions of the source code, anyone who makes copies, modifies, publishes, patents, uses this software MUST provide the valid original copyright presented on this github page, credit must be kept on the copies of this software, this includes but not limited to; comments in the code specifically asking not to be removed by the author.`
