@@ -13,12 +13,7 @@
 ### **Step Three: Look below for api request uri's.**
 
 ## API URI'S
-| URI      | Params | Function |
-|----------|--------|----------|
-|/api/user.php|?username=&password=&hwid=|Register User with username, password and valid HWID.
-|/api/access.php|?username=&password=&hwid=|Checks if user exists, returns information about selected user.
-|**MISC:**
-|/index.php|?api=0.4|Uncompleted Function, Customise it to whatever you'd like.
+![Click Here](https://github.com/WhistleDevelopments/Overlord#readme)
 
 ## Credits/License
 > **Developer: WhistleDev**
