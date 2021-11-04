@@ -13,7 +13,7 @@
 ### **Step Three: Look below for api request uri's.**
 
 ## API URI'S
-![Click Here][https://github.com/WhistleDevelopments/Overlord#readme]
+[Click Here](https://github.com/WhistleDevelopments/Overlord#readme)
 
 ## Credits/License
 > **Developer: WhistleDev**
